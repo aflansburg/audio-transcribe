@@ -147,3 +147,6 @@ transform/dbt/*/logs/
 # ignore ffmpeg
 ffmpeg
 ffprobe
+
+# ignore .vscode
+.vscode
