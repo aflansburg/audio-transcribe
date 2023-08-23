@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "audio-transcribe"
+version = "0.1.0"
+description = ""
+authors = ["Abe Flansburg <abeflansburg@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+google-cloud-speech = "^2.21.0"
+pydub = "^0.25.1"
+soundfile = "^0.12.1"
+numpy = "^1.25.2"
+ffmpeg = "^1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
