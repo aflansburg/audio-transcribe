@@ -150,3 +150,6 @@ ffprobe
 
 # ignore .vscode
 .vscode
+
+# ignore outputs
+resources/outputs/*

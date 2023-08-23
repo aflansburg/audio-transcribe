@@ -67,6 +67,7 @@ poetry install
 
 Run
 ```
+# you may wish to tweak the BITRATE & CODEC constants in lib/convert.py
 GOOGLE_CLOUD_PROJECT=$(gcloud config get project) python main.py
 ```
 
